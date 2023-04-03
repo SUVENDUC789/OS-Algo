@@ -29,11 +29,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] process = {176, 79, 34, 60, 92, 11, 41, 114} ;
+        int[] process = { 4, 40, 11, 35, 7, 14 };
         // int[] process = { 98, 183, 37, 122, 14, 124, 65, 67 };
         int[] visiter = new int[process.length];
 
-        int READ_WRITE_HEAD = 50;
+        int READ_WRITE_HEAD = 15;
         double TOTAL_HEAD_MOVEMENT = 0;
 
         for (int i = 0; i < visiter.length; i++) {

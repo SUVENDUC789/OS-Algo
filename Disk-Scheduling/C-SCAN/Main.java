@@ -9,10 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] process = { 176, 79, 34, 60, 92, 11, 41, 114 };
-        int start = 50;
+        int[] process = { 4,40,11,35,7,14 };
+        int start = 15;
 
-        double total_head_movement = C_SCAN(process, start, 0, 199);
+        double total_head_movement = C_SCAN(process, start, 0, 49);
 
         System.out.println("Total head movement : " + (int) total_head_movement);
         System.out.println("Average head movement : " + (total_head_movement / process.length));

@@ -39,8 +39,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] process = { 98, 183, 37, 122, 14, 124, 65, 67 };
-        int START_HEAD = 53;
+        int[] process = { 4,40,11,35,7,14 };
+        int START_HEAD = 15;
 
         System.out.println("Total head movement : " + scan(process, START_HEAD));
         System.out.println("Average head movement : " + (scan(process, START_HEAD) / process.length));

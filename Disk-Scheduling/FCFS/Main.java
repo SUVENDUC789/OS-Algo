@@ -7,9 +7,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int process[] = { 98, 183, 37, 122, 14, 124, 65, 67 };
+        int process[] = { 4,40,11,35,7,14 };
         // int total_track = 200;
-        int READ_WRITE_HEAD = 53;
+        int READ_WRITE_HEAD = 15;
 
         double total_head_movemenet = 0;
         // double avg_head_movement = 0;
